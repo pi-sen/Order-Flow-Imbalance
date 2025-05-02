@@ -45,7 +45,7 @@ This program implements Order Flow Imbalance (OFI) features from high-frequency 
 ### 🔹 8. Output
 * Final features (OFI_best, OFI_multi, OFI_integrated, OFI_cross) are stored in the dataframe for export or further analysis
 
-## 🧪 Testing Cross-Asset OFI Using Synthetic Data
+## Testing Cross-Asset OFI Using Synthetic Data
 
 Since real multi-asset LOB data was unavailable, we:
 * Replicated AAPL data into multiple "assets"
@@ -54,7 +54,7 @@ Since real multi-asset LOB data was unavailable, we:
 
 This approach allows testing the cross-impact logic without needing real cross-asset LOB feeds.
 
-## ✅ Summary of Outputs
+## Summary of Outputs
 
 | Feature | Description |
 |---------|-------------|
