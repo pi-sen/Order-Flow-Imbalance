@@ -2,7 +2,7 @@
 
 ## Objective
 
-This progeam implements Order Flow Imbalance (OFI) features from high-frequency limit order book (LOB) data and evaluates their application in price impact modeling and cross-asset relationships. OFI is a microstructure-based feature that captures the net imbalance between supply and demand, considered superior to trade volume for modeling short-term returns. The implementation is based on methodologies presented in "Cross-impact of order flow imbalance in equity markets" by Rama Cont, Mihai Cucuringu & Chao Zhang.
+This program implements Order Flow Imbalance (OFI) features from high-frequency limit order book (LOB) data and evaluates their application in price impact modeling and cross-asset relationships. OFI is a microstructure-based feature that captures the net imbalance between supply and demand, considered superior to trade volume for modeling short-term returns. The implementation is based on methodologies presented in "Cross-impact of order flow imbalance in equity markets" by Rama Cont, Mihai Cucuringu & Chao Zhang.
 
 ## Code Structure & Flow
 
@@ -42,8 +42,7 @@ This progeam implements Order Flow Imbalance (OFI) features from high-frequency 
 * This represents a naive cross-asset pressure signal that approximates the influence of external order flow on the asset in question
 * Note: This is a simplification of the cross-impact model described in the paper, which uses Lasso regression to formally estimate pairwise impact coefficients
 
-### 🔹 8. Plotting and Output
-* Plots are generated to visualize OFI features over time
+### 🔹 8. Output
 * Final features (OFI_best, OFI_multi, OFI_integrated, OFI_cross) are stored in the dataframe for export or further analysis
 
 ## 🧪 Testing Cross-Asset OFI Using Synthetic Data
