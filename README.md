@@ -1,4 +1,4 @@
-# Order Flow Imbalance (OFI) Feature Construction & Cross-Asset Analysis
+# Order Flow Imbalance (OFI) Construction
 
 ## Objective
 
